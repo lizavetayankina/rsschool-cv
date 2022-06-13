@@ -15,7 +15,7 @@
             <ul class="nav_ul">
                 <li><a class="nav_link" href="#about">About</a></li>
                 <li><a class="nav_link" href="#Skills">Skills</a></li>
-                <li><a class="nav_link" href="#Experionce">Experionce</a></li>
+                <li><a class="nav_link" href="#Experionce">Experience</a></li>
                 <li><a class="nav_link" href="#Education">Education</a></li>
             </ul>
         </nav>
@@ -55,38 +55,46 @@
         </article>
     </section>
 
-    <section class="skills">
+<section class="skills">
         <div class="title">
             <h2>Skills:</h2>
         </div>
       <article class="skills_inf">
  <div class="colum">
      <div class="item1">
-         <p>HTML5;</p>
+         <p>HTML5</p>
+<progress   max="10" value="10"> 10 </progress>
      </div>
      <div class="item2">
-        <p>CSS3;</p>
+        <p>CSS3</p>
+        <progress  max="10" value="8"> 8 </progress>
     </div>
     <div class="item3">
-        <p>Sass;</p>
+        <p>Sass</p>
+        <progress  max="10" value="6"> 6 </progress>
     </div>
  </div>
  <div class="colum">
     <div class="item1">
-        <p>Git;</p>
+        <p>Git</p>
+        <progress  max="10" value="4"> 4 </progress>
     </div>
     <div class="item2">
-       <p>Figma;</p>
+       <p>Figma</p>
+       <progress  max="10" value="4"> 4 </progress>
    </div>
    <div class="item3">
-       <p>PhotoShop;</p>
+       <p>PhotoShop</p>
+       <progress  max="10" value="4"> 4 </progress>
    </div>
 </div>
       </article>
-    </section>
+    </section> 
+
+
     <section class="experionce">
         <div class="title">
-            <h2>Experionce:</h2>
+            <h2>Experience:</h2>
         </div>
         <article class="portfoleo">  
                 <div class="_ptoject">
@@ -127,6 +135,32 @@
                </div>
             </div>
         </article>
+    </section>
+
+    <section class="code">
+        <div class="title">
+            <h2>Code:</h2>
+        </div>
+        <article class="code_example"> 
+            <pre>
+const videoElement = document.querySelector('.myPlayer');
+const btnVideo = document.querySelector('.vid_icon');
+const videoTitile = document.querySelector('.video_title');
+const videoUnderTitile = document.querySelector('.under');
+
+btnVideo.addEventListener('click', () => {
+  if (videoElement.play() ) {
+    videoTitile.innerHTML = "";
+    videoUnderTitile.innerHTML = "";
+    btnVideo.innerHTML = '';
+  } else  {
+    videoTitile.innerHTML = "Explore Our Awesomeness";
+
+    videoUnderTitile.innerHTML = "Click to play the video";
+  }
+}) </pre>
+</article>
+
     </section>
 
     <section class="Languages">
