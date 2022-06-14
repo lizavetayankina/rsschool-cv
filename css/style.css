@@ -192,3 +192,15 @@ footer {
     font: 20px 'Poppins', sans-serif;
     font-weight: bold;
 }
+
+/*media*/
+@media (min-width:576px) and (max-width:1024px) {
+       
+ .about_yourself {
+    width: 500px;
+ }
+ 
+    .about_yourself h3  {
+     width: 500px;
+ }  
+    }
